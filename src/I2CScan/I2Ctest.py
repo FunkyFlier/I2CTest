@@ -18,3 +18,5 @@ for address in range(127):
     if i2c.ping():
         print 'Found I2C device at address 0x{0:02X}'.format(address)
 print 'Done!'
+
+#add comment

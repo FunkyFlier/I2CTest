@@ -28,13 +28,13 @@ Z_ = 2
 
 #gyro defines - ST L3G2
 READ = 0x80
-for x in range(10000):
-    #print time.clock()
-    #print floor(time.clock() * 1000000)
-    print time.clock()
-    print nanos()
-    print millis()
-    print micros()
+# for x in range(10000):
+#     #print time.clock()
+#     #print floor(time.clock() * 1000000)
+#     print time.clock()
+#     print nanos()
+#     print millis()
+#     print micros()
     
     
 L3G_CTRL_REG1 = 0x20
@@ -98,7 +98,7 @@ xGyro = gyroIntList[0]
 yGyro = gyroIntList[1]
 zGyro = gyroIntList[2]
 
-print (xGyro,",",yGyro,",",zGyro)
+print (xGyro,yGyro,zGyro)
 
 
 
